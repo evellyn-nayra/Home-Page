@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    padding: 3.5rem;
+    background-color: rgb(3, 3, 49);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header h2{
+    font-size: 1.8em;
+}
+
+header nav li a{
+    color: aliceblue;
+}
+
+header nav li a:hover{
+    color: rgb(3, 3, 49);
+    background-color: rgba(147, 167, 184, 0.785);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.menu{
+    display: flex;
+    gap: 6rem;
+    font-size: 1.5em;
+}
+
+body{
+    background-color: rgb(198, 194, 194);
+    color: black;
+}
+
+.whatJS{
+    padding: 5rem;
+
+}
+
+.whatJS h2{
+text-align: center;
+font-size: 2em;
+}
+
+.whatJS p{
+margin-top: 2rem;
+font-size: 1.5em;
+text-align: justify;
+line-height: 1.5em;
+}
+
+.line{
+    width: 20rem;
+    margin: 0 auto;
+    border-color: rgb(3, 3, 49);
+}
+
+body h2{
+    text-align: center;
+}
