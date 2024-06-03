@@ -59,9 +59,106 @@ line-height: 1.5em;
 .line{
     width: 20rem;
     margin: 0 auto;
-    border-color: rgb(3, 3, 49);
 }
 
 body h2{
     text-align: center;
+}
+
+.frames{
+    background: linear-gradient(180deg, rgba(150, 184, 193, 0.63) 29%, rgba(56, 54, 85, 0.83) 100%), url(js.png);
+    padding: 5em;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-frames{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frames h2{
+    font-size: 3rem;
+}
+
+.div-frames-2{
+    margin-top: 5rem;
+    padding: 1.1rem;
+    width: 20rem;
+    height: 10rem;  
+    border: 0.1rem solid;
+    border-radius: 1rem;
+}
+
+.div-frames-2 h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.div-frames-2 p{
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-top: 0.5rem;
+}
+
+.div-bibliotecas{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.line-2{
+    width: 45rem;
+    margin: 0 auto;
+}
+.div-bibliotecas-2{
+    margin-top: 5rem;
+    padding: 1.1rem;
+    width: 20rem;
+    height: 12rem;  
+    border: 0.1rem solid;
+    border-radius: 1rem;
+}
+
+.div-bibliotecas-2 h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.div-bibliotecas-2 p{
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-top: 0.5rem;
+}
+
+footer{
+    padding: 3em;
+    background-color: rgb(3, 3, 49);
+    color: aliceblue;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer div h2{
+    font-size: 1.8em;
+}
+
+/* .fa-js{
+    color: aliceblue;
+    font-size: 3rem;
+    text-align: end;
+    
+
+} */
+
+footer nav li a{
+    color: aliceblue;
 }
